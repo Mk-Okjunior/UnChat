@@ -1,0 +1,16 @@
+env: load .env
+env: export EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY EXPO_PUBLIC_SUPABASE_URL
+Starting project at F:\PROJECT\UnChat
+› Port 8081 is being used by another process
+Error: GetEnv.NoBoolean: 1  is not a boolean.
+Error: GetEnv.NoBoolean: 1  is not a boolean.
+    at Object.boolish (F:\PROJECT\UnChat\node_modules\getenv\index.js:70:15)
+    at F:\PROJECT\UnChat\node_modules\getenv\index.js:84:27
+    at get CI (F:\PROJECT\UnChat\node_modules\expo\node_modules\@expo\cli\build\src\utils\env.js:75:38)
+    at isInteractive (F:\PROJECT\UnChat\node_modules\expo\node_modules\@expo\cli\build\src\utils\interactive.js:33:45)
+    at choosePortAsync (F:\PROJECT\UnChat\node_modules\expo\node_modules\@expo\cli\build\src\utils\port.js:170:45)
+    at async _resolvePortAsync (F:\PROJECT\UnChat\node_modules\expo\node_modules\@expo\cli\build\src\utils\port.js:203:26)
+    at async resolveMetroPortAsync (F:\PROJECT\UnChat\node_modules\expo\node_modules\@expo\cli\build\src\utils\port.js:218:26)
+    at async resolvePortsAsync (F:\PROJECT\UnChat\node_modules\expo\node_modules\@expo\cli\build\src\start\resolveOptions.js:156:23)
+    at async _getMultiBundlerStartOptions (F:\PROJECT\UnChat\node_modules\expo\node_modules\@expo\cli\build\src\start\startAsync.js:129:34)
+    at async startAsync (F:\PROJECT\UnChat\node_modules\expo\node_modules\@expo\cli\build\src\start\startAsync.js:168:53)
